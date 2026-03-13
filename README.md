@@ -3,9 +3,9 @@
 Frontend application developed as part of the **CodeLeap Engineering Test**.  
 The project implements a simple social feed where users can create, edit, and delete posts.
 
-## 🚀 Live Demo
+## 🚀 Deploy
 
-[Deploy Link Here]
+https://codeleap-three.vercel.app/
 
 ## 📂 Repository
 

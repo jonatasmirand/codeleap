@@ -41,6 +41,11 @@ header h1 {
   padding: 20px;
 }
 
+.button-logout{
+  display: flex;
+  justify-content: center;
+}
+
 .logout{
   background: #ff5151;
   border: none;

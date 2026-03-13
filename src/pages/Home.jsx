@@ -44,14 +44,16 @@ function Home({ username, setUserName }) {
             toUpdate={refetch}
           />
         ))}
-      </div>
 
-      <button
-        className="logout"
-        onClick={logout}
-      >
-        Change User
-      </button>
+        <div className='button-logout'>
+          <button
+            className="logout"
+            onClick={logout}
+          >
+            Change User
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

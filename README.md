@@ -179,4 +179,7 @@ Developed by **Jonatas Miranda** / 2026
 LinkedIn:  
 https://www.linkedin.com/in/jonatasmirand/
 
+Portfólio:
+https://jonatasmirand.vercel.app/
+
 ---

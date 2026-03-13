@@ -3,8 +3,9 @@ import { api } from '../services/api';
 import CreatePost from '../components/CardPost/CreatePost';
 import Card from '../components/Card/Card';
 import './home.css';
+import Singnup from '../components/Singnup/Singnup';
 
-function Home({ username }) {
+function Home({ username, setUserName }) {
   const { data, refetch, isLoading } = useQuery({
     queryKey: ['posts'],
     queryFn: async () => {
@@ -16,6 +17,11 @@ function Home({ username }) {
   const posts = [...(data || [])].sort(
     (a, b) => new Date(b.created_datetime) - new Date(a.created_datetime),
   );
+
+  const logout = () => {
+    localStorage.removeItem("username");
+    setUserName("");
+  };
 
   if (isLoading) {
     return <p>Loading...</p>;
@@ -39,6 +45,13 @@ function Home({ username }) {
           />
         ))}
       </div>
+
+      <button
+        className="logout"
+        onClick={logout}
+      >
+        Change User
+      </button>
     </div>
   );
 }

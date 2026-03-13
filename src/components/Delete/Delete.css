@@ -71,3 +71,25 @@
     width: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .delete-modal {
+    padding: 18px;
+  }
+
+  .delete-modal h2 {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .modal-actions button {
+    width: 100%;
+    padding: 8px;
+  }
+}

@@ -63,3 +63,37 @@
     min-height: 80px;
   }
 }
+
+@media (max-width: 480px) {
+  .create-post {
+    padding: 12px;
+  }
+
+  .create-post h2 {
+    font-size: 16px;
+    padding-bottom: 16px;
+  }
+
+  .create-post label {
+    font-size: 14px;
+  }
+
+  .create-post input,
+  .create-post textarea {
+    font-size: 14px;
+  }
+
+  .create-post textarea {
+    min-height: 70px;
+    resize: none;
+  }
+
+  .create-post-actions {
+    justify-content: flex-end;
+  }
+
+  .create-post button {
+    width: 100%;
+    padding: 8px;
+  }
+}

@@ -13,7 +13,8 @@ function App() {
 
   return (
     <>
-      <Home username={username} />
+      <Home username={username}
+      setUserName={setUserName} />
     </>
   );
 }

@@ -95,3 +95,32 @@
     width: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .edit-modal {
+    padding: 18px;
+  }
+
+  .edit-modal h2 {
+    font-size: 18px;
+  }
+
+  .edit-modal label {
+    font-size: 14px;
+  }
+
+  .edit-modal textarea {
+    min-height: 80px;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .modal-actions button {
+    width: 100%;
+    padding: 8px;
+  }
+}
